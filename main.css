@@ -1,0 +1,119 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+.pointtab {
+  background-color: white;
+  height: 50px;
+}
+
+.nav-pills{
+  display: flex;
+}
+
+
+.nav-pills li {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-pills a {
+  flex: 1;
+  text-align: center;
+}
+
+
+.jumbotron {
+  padding:0px;
+  margin:0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:200px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 40px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.jumbotron .right {
+    text-align: right;
+    float: right;
+}
+
+
+.learn-more {
+  background-color: white;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.learn-more a {
+  color: black;
+}
+
+.learn-more p {
+  color: black;
+}
+
+
+.panel-collapse {
+  margin-bottom: 20px;
+  background-color:  rgba(200, 54, 54, 0.2);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-collapse ul {
+  color: white;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* start of the lightbox section */
+/* ---------------------------------------------------------------------------- */
+
+
+.row > .column {
+  padding: 3 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery {
+  width: 200px;
+  margin: 300 auto;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.product li {
+  font-size: 18px;
+}
