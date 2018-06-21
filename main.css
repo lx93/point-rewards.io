@@ -31,9 +31,29 @@
   background-size: cover;
 }
 
-.jumbotron .container {
+.jumbotron div {
   position: relative;
-  top:200px;
+  bottom:50px;
+}
+
+.jumbotron img {
+  position: absolute;
+}
+
+.jumbotron .container button{
+  position: relative;
+  top: -50px;
+  left: 120px;
+}
+.jumbotron .container {
+  position: absolute;
+  top: 50px;
+  margin:100px;
+}
+
+.jumbotron .right {
+  position: absolute;
+  right:300px;
 }
 
 .jumbotron h1 {
