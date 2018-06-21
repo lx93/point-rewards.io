@@ -163,13 +163,14 @@ strong { font-weight: 700; }
 .navbar button { outline: none; }
 
 .navbar .logo-nav,
+
 .btn-nav { display: none; }
 
 .navbar.affix .logo,
 .navbar.affix .btn-modal { display: none; }
 
 .navbar.affix .logo-nav,
-.navbar.affix .btn-nav { display: block; }
+.navbar.affix .btn-nav { display: block; margin-top:-20px; }
 
 .navbar {
   position: absolute;
